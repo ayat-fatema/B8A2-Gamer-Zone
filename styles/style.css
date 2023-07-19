@@ -253,9 +253,9 @@ font-weight: 700;
     
 .button-sec-line{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(4,1fr); */
         gap: 20px;
-        padding-left:30px;
+        /* padding-left:30px; */
         margin-top: 20px;
     }
 
