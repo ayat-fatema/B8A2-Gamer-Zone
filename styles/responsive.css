@@ -18,9 +18,44 @@
     width: 100%;
     margin-top: 10px;
 }
+/* banner responsive */
+.banner-container{
+   flex-direction: column;}
 
+.banner-content{
+    width: 100%;}
+.banner-img {
+    width: 100%;
+}
 .cart-container{
     grid-template-columns: 1fr;
 }
+.play-game-container{
+   flex-direction: column-reverse;
+    
+}
+/* cart */
+.cart-container{
+    
+    width: 80%;
+    min-height: 300px;
+    grid-template-columns:(1fr);
+    gap: 20px;
+}
 
+/* games */
+
+.play-game-container{
+    flex-direction: column-reverse;
+    max-height:500px;
+
+
+}
+.play-game-contant {
+    width: 100%;
+}
+
+.play-game-img{
+    width: 100%;
+}
 }
