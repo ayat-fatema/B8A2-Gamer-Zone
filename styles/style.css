@@ -170,20 +170,7 @@ padding-bottom: 20px;
 
     width: 100%;
     min-height: 300px;
-    /* border: 1px solid blue; */
-}
-.cart-hover{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    background: rgba(0,0,0,0,6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.6s;
+    border: 1px solid blue;
 }
 
 .cart-box:hover{
@@ -292,4 +279,67 @@ font-weight: 400;
 .singel-btn:hover{
     border: 2px solid rgba(255,66,165,1);
     border-radius:30px;
+}
+
+/* footer stye */
+footer{
+    background-color:  #0B0223;;
+    height: 50vh;
+    margin-top: 50px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-title h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.footer-title span{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+.footer-item-containeer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-items{
+    color: #FFF;
+font-size: 1rem;
+font-weight: 600;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px 0;
+}
+.fa-brands{
+    color: white;
+    font-size: 1.5rem;
+   
+}
+.footer-security{
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.footer-end{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
 }
