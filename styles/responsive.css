@@ -153,13 +153,5 @@ margin-top: 10px;
 
 
 
-}
-@media screen and (min-width:1000px) and (max-width:1224px) {
-   
 
-    .nav-items-container{
-       
-    gap: 30px;
-
-}
 }
