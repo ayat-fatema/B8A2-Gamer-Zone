@@ -324,7 +324,9 @@ font-weight: 400;
     border-radius: 30px;
     
 }
-
+.singel-btn:hover a {
+    color: rgba(255,66,165,1);
+}
 
 /* footer stye */
 footer{
